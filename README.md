@@ -1,2 +1,2 @@
 # blackthorn-game-manager
-the actual game scene is in assets/scenes
+the actual game scene is Assets/Scenes/Target Practice
