@@ -15,9 +15,6 @@ public class SimpleGameManager : MonoBehaviour
     private string q1Name = "hit the green sphere";
     private string q2Name = "shot the blue pillar";
     private string q3Name = "blasted the red cubiod";
-    int q1Hits = 0;
-    int q2Hits = 0;
-    int q3Hits = 0;
 
 
     private static SimpleGameManager instance = null;

@@ -51,6 +51,7 @@ public class BulletScript : MonoBehaviour {
                 }
                 if (hit.transform.tag == "Win")
                 {
+                    Instantiate(decalHitWall, hit.point + hit.normal * floatInfrontOfWall, Quaternion.LookRotation(hit.normal));
                     GM.ShootEnd();
                 }
 
